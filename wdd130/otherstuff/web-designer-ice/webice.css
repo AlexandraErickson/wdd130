@@ -1,0 +1,20 @@
+main{
+    margin: 0 50px;
+    background-color: rgb(103, 103, 103);
+}
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 90% fr;
+}
+.back{
+    width: 100%;
+    grid-column: 1/4;
+}
+.circle{
+    border-radius: 500px;
+    border: 10px rgb(67, 67, 67) solid;
+    margin: 30px auto;
+    width: 50%;
+
+}
