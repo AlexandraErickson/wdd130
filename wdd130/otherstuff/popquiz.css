@@ -1,0 +1,21 @@
+img{
+    width: 350px;
+    float: right;
+    padding: 15px;
+    
+    
+   
+
+}
+section{
+    background-color: lightgrey;
+    border: solid black 2px;
+    margin: 50px;
+    border-radius: 10px;
+    color: purple;
+    padding: 15px;
+
+}
+h1{
+    color: orange;
+}

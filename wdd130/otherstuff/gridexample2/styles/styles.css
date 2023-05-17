@@ -1,0 +1,29 @@
+body{
+    background-color: darkseagreen;
+}
+.one{
+    background-color: aliceblue;
+    grid-column: 1/2;
+}
+.two{
+    background-color: thistle;
+    grid-column: 2/5;
+    text-align: center;
+    font-size: 3em;
+}
+.three{
+    background-color: lightblue;
+    grid-column: 2/4;
+}
+.four{
+    grid-column: 1/5;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+img{
+    width: 100%;
+}
