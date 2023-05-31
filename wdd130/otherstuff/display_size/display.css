@@ -1,0 +1,9 @@
+body{
+    background-color: plum;
+}
+@media screen and (max-width: 871){
+    body{background-color: orange;}
+}
+@media screen and (max-width: 673){
+    body{background-color: blue;}
+}
