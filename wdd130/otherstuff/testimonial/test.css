@@ -1,0 +1,42 @@
+#grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#back{
+    width: 100%;
+   grid-column: 1/2;
+   grid-row: 1/2;
+}
+#card{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1/2;
+    
+}
+#paragraph{
+    background-color: white;
+width: 470px;
+height: 470px;
+justify-self: left;
+align-self: center;
+padding-top: 70px;
+padding-left: 60px;
+padding-right: 60px;
+box-sizing: border-box;
+
+}
+#me{
+    width: 400px;
+    height: 470px;
+}
+img{
+justify-self: right;
+align-self: center;
+}
+p{
+ 
+}
+h1{
+    border-bottom: 2px solid black;
+}
