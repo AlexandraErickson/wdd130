@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Source+Sans+Pro&display=swap');
+
+/* Color Palate: #172A3A #598381 #8E936D #A2AD59 */
+main{
+    margin: 0 40px;
+}
+nav{
+    background-color: #172A3A;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+nav a{
+    color: #A2AD59;
+    font-size: 1.5em;
+    
+    
+}
+p a{
+    color:#598381;
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    margin: 10px;
+}
+h1{
+    font-family: 'Delicious Handrawn';
+    color: #598381;
+    font-size: 4em;
+    text-align: center;
+}
+p{
+    color: #172A3A;
+    font-family: 'Source Sans Pro';
+    font-size: 2em;
+}
+.text_link{
+    font-size: 1em;
+}
