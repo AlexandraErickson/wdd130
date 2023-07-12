@@ -2,22 +2,25 @@
 
 /* Color Palate: #172A3A #598381 #8E936D #A2AD59 */
 main{
-    margin: 0 40px;
+    margin: 0 auto;
+    max-width: 1700px;
 }
 nav{
     background-color: #172A3A;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
+    height: 125px;
 }
 nav a{
     color: #A2AD59;
     font-size: 2em; 
     text-align: center;
     margin: 0 10px;
-    height: 125px;
-    line-height: 125px;
     font-family: 'Source Sans Pro';
+    border-radius: 10px;
+    height: 60px;
+    margin-top: 25px;
+    padding-top: 15px;
 }
 nav a:hover{
     color: #172A3A;
@@ -34,6 +37,17 @@ a{
     height: 100px;
     border-radius: 200px;
     margin: 10px;
+    margin: auto;
+    border: #A2AD59 solid 3px;
+    padding-top: 0px;
+}
+.logo_link{
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    margin: auto;
+    margin-bottom: 15px; 
+    padding-top: 0px;
 }
 .logo_link:hover{
     background-color: #172A3A;
