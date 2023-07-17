@@ -10,10 +10,11 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 125px;
+    gap: 20px;
 }
 nav a{
     color: #A2AD59;
-    font-size: 2em; 
+    font-size: 2.5em; 
     text-align: center;
     margin: 0 10px;
     font-family: 'Source Sans Pro';
@@ -40,6 +41,7 @@ a{
     margin: auto;
     border: #A2AD59 solid 3px;
     padding-top: 0px;
+    box-shadow: none;
 }
 .logo_link{
     width: 100px;
@@ -55,14 +57,39 @@ a{
 h1{
     font-family: 'Delicious Handrawn';
     color: #598381;
-    font-size: 4em;
+    font-size: 6em;
     text-align: center;
 }
-p{
+p, li{
     color: #172A3A;
     font-family: 'Source Sans Pro';
     font-size: 2em;
 }
 .text_link{
     font-size: 1em;
+}
+
+
+.board{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 20px;
+    padding-top: 100px;
+}
+.items{
+    margin-bottom: 60px;
+}
+img{
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    border: #172A3A solid 10px;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 3px rgb(89, 89, 89);
+}
+.description{
+    font-family: 'Delicious Handrawn';
+    color: #598381;
+    font-size: 4em;
 }
